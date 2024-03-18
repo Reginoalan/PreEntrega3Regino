@@ -5,6 +5,7 @@
 $colorRojo: rgba(207, 20, 20, 0.867);
 $colorNegro:black;
 $colorDeFondo:#EFE9F4;
+$colorBlanco: white;
 
 /* FIN VARIABLES */
 
@@ -41,7 +42,7 @@ $colorDeFondo:#EFE9F4;
 }
 
 .fondoMainGeneral{
-    background-color: #EFE9F4 !important;
+    background-color: $colorDeFondo !important;
 }
 
 /* INICIO DEL MAIN HOME*/
@@ -58,14 +59,14 @@ $colorDeFondo:#EFE9F4;
 }
 
 .tituloHome{
-    color: white;
+    color: $colorBlanco;
     font-size: 50px;
     text-shadow: 0 0 10px black;
 }
 
 .textoHome{
     background-color: rgba(0, 0, 0, 0.6);
-    color: white;
+    color: $colorBlanco;
     border-style: inset;
     font-size: 20px;
 }
@@ -111,5 +112,6 @@ $colorDeFondo:#EFE9F4;
 .pListFooter{
     padding-bottom: 8px;
 }
+
 
 /* FIN DEL FOOTER */
