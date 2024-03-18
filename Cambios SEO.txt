@@ -1,3 +1,4 @@
 Para agregar SEO al trabajo realice los siguientes cambios:
 
+- Linkie el logo al HOME (index.html) para que se pueda acceder desde cualquier pagina
 - 
