@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    box-sizing: border-box;
+}
+
+/* HEADER - Aca comienza el Header */
+
+/* Color de fondo */
+.navbar{
+    background-color: rgba(207, 20, 20, 0.867);    
+}
+
+.titulo{
+    font-size: 25px !important;
+}
+
+/* Links de navegacion */
+
+.pestHeader{
+    font-size: 20px !important;
+
+}
+
+/* Logo  */
+
+.navbar img{
+    height: 50px;
+}
+
+.fondoMainGeneral{
+    background-color: #EFE9F4 !important;
+}
+
+/* INICIO DEL MAIN HOME*/
+
+.espacioHome{
+    padding: 40px !important;
+}
+
+.fondoHome{
+    background-image: url(../img/fondo_saludo.jpg);
+    background-size: cover;
+    background-position: center; 
+    
+}
+
+.tituloHome{
+    color: white;
+    font-size: 50px;
+    text-shadow: 0 0 10px black;
+}
+
+.textoHome{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border-style: inset;
+    font-size: 20px;
+}
+
+/* FIN DEL MAIN HOME */
+
+/* MAIN DEL NOSOTROS */
+
+
+.paddingNosotros{
+    padding: 20px;
+}
+
+/* FIN DEL MAIN DE NOSOTROS */
+
+/* MAIN DEL SERVICIOS */
+
+
+
+.paddingServicios{
+    padding:15px;
+}
+
+/* FIN DEL MAIN DE SERVICIOS */
+
+/* INICIO MAIN CONTACTO */
+
+.iconos{
+    
+    font-size: 40px; 
+    list-style: none ;      
+}
+
+/* FIN MAIN CONTACTO */
+
+/* INICIO DEL FOOTER */
+
+.pFooter{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.pListFooter{
+    padding-bottom: 8px;
+}
+
+/* FIN DEL FOOTER */

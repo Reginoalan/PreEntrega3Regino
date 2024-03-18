@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../img/logo.png">
+    <link rel="stylesheet" href="../estilos/estilos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+    <title>Taller Arona</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand titulo" href="#"><img src="../img/logo.png" alt="icono"> Taller Arona</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav pestHeader">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="../paginas/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../paginas/servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="../paginas/turnos.html">Turnos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="../paginas/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section>
+        <h2 class="text-center my-4 ">Para solicitar un turno por favor complete los siguientes datos:</h2>
+        <form class="container bg-danger bg-gradient mb-4 " action="">
+
+            <div class="mb-3 pt-3">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre" required>
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Apellido" required>
+            </div>
+            <div class="mb-3">
+                <input type="number" class="form-control" id="exampleFormControlInput1"
+                    placeholder="Teléfono de contacto" required>
+            </div>
+            <div class="mb-3">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Mail">
+            </div>
+            <div class="row">
+                <div class="col-md-1 mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label text-white">Motivo: </label>
+                </div>
+                <div class="col-md-auto mb-3">
+                    <select class="form-select form-select-sm" aria-label=".form-select-sm example" required>
+                        <option selected>...</option>
+                        <option value="1">Carburación</option>
+                        <option value="2">Inyección</option>
+                        <option value="3">Encendido</option>
+                    </select>
+                </div>
+            </div>
+            <div class="mb-3 pt-3">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Modelo" required>
+            </div>
+            <div class="form-check form-check-inline mb-3">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                    value="option1">
+                <label class="form-check-label text-white" for="inlineRadio1">Nafta</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                    value="option2">
+                <label class="form-check-label text-white" for="inlineRadio2">Diesel</label>
+            </div>
+            <div class="row mb-3 ">
+                <div class="col-md-2">
+                    <label for="" class="form-label text-white">Seleccione una fecha: </label>
+                </div>
+                <div class="col-md-5">
+                    <input type="date" class="date">
+                </div>
+            </div>
+            <div class="mb-3 ">
+                <label for="" class="form-label text-white">Observaciones:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                    placeholder="Escribe tu comentario"></textarea>
+            </div>
+            <div class="col-12 pb-3">
+                <button class="btn btn-warning" type="submit">Enviar</button>
+            </div>
+        </form>
+    </section>
+    </main>
+    <footer class="bg-dark bg-opacity-25 pFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col ">
+                    <h4>Enlaces</h4>
+                    <ul class="nav flex-column">
+                        <li class="pListFooter"><a href="../index.html">Home</a></li>
+                        <li class="pListFooter"><a href="../paginas/servicios.html">Servicios</a></li>
+                        <li class="pListFooter"><a href="../paginas/contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col pFooter">
+                    <ul class="nav flex-column">
+                        <li class="pListFooter"><a href="../paginas/nosotros.html">Nosotros</a></li>
+                        <li class="pListFooter"><a href="../paginas/turnos.html">Turnos</a></li>
+
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4>Contacto</h4>
+                    <ul class="nav flex-column">
+                        <li>
+                            <p>tallerarona@ejemplo.com.ar</p>
+                        </li>
+                        <li>
+                            <p>221-111-1111</p>
+                        </li>
+                        <li>
+                            <p>Horario de atención Lunes a Viernes de 8 a 12 y de 14:30 a 17hs</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
