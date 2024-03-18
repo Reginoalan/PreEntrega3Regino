@@ -86,4 +86,10 @@
   padding-bottom: 8px;
 }
 
+footer ul li a {
+  text-decoration: none;
+  list-style: none !important;
+  color: black !important;
+}
+
 /* FIN DEL FOOTER *//*# sourceMappingURL=estilos.css.map */

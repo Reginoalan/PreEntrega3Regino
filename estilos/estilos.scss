@@ -10,7 +10,7 @@ $colorBlanco: white;
 /* FIN VARIABLES */
 
 
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: "Raleway", sans-serif;
@@ -20,51 +20,51 @@ $colorBlanco: white;
 /* HEADER - Aca comienza el Header */
 
 /* Color de fondo */
-.navbar{
-    background-color: $colorRojo;    
+.navbar {
+    background-color: $colorRojo;
 }
 
-.titulo{
+.titulo {
     font-size: 25px !important;
 }
 
 /* Links de navegacion */
 
-.pestHeader{
+.pestHeader {
     font-size: 20px !important;
 
 }
 
 /* Logo  */
 
-.navbar img{
+.navbar img {
     height: 50px;
 }
 
-.fondoMainGeneral{
+.fondoMainGeneral {
     background-color: $colorDeFondo !important;
 }
 
 /* INICIO DEL MAIN HOME*/
 
-.espacioHome{
+.espacioHome {
     padding: 40px !important;
 }
 
-.fondoHome{
+.fondoHome {
     background-image: url(../img/fondo_saludo.jpg);
     background-size: cover;
-    background-position: center; 
-    
+    background-position: center;
+
 }
 
-.tituloHome{
+.tituloHome {
     color: $colorBlanco;
     font-size: 50px;
     text-shadow: 0 0 10px black;
 }
 
-.textoHome{
+.textoHome {
     background-color: rgba(0, 0, 0, 0.6);
     color: $colorBlanco;
     border-style: inset;
@@ -76,7 +76,7 @@ $colorBlanco: white;
 /* MAIN DEL NOSOTROS */
 
 
-.paddingNosotros{
+.paddingNosotros {
     padding: 20px;
 }
 
@@ -86,32 +86,43 @@ $colorBlanco: white;
 
 
 
-.paddingServicios{
-    padding:15px;
+.paddingServicios {
+    padding: 15px;
 }
 
 /* FIN DEL MAIN DE SERVICIOS */
 
 /* INICIO MAIN CONTACTO */
 
-.iconos{
-    
-    font-size: 40px; 
-    list-style: none ;      
+.iconos {
+
+    font-size: 40px;
+    list-style: none;
 }
 
 /* FIN MAIN CONTACTO */
 
 /* INICIO DEL FOOTER */
 
-.pFooter{
+.pFooter {
     padding-top: 30px;
     padding-bottom: 50px;
 }
 
-.pListFooter{
+.pListFooter {
     padding-bottom: 8px;
 }
 
+footer {
+    ul {
+        li {
+            a{
+                text-decoration:none;
+                list-style: none !important;
+                color: $colorNegro !important;
+            }
+        }
+    }
+}
 
 /* FIN DEL FOOTER */
