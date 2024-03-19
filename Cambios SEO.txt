@@ -7,7 +7,7 @@ Para agregar SEO al trabajo realice los siguientes cambios:
 
 Falta agregar
 
-- El texto real (sacar todos los lorem)
+
 - Las cosas para buscar en google
 - Hacer responsive el contactos (el mail desborda)
 - Poner un efecto en el boton de enviar el formulario

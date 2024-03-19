@@ -104,6 +104,7 @@ nav {
     padding: 20px;
 }
 
+
 /* FIN DEL MAIN DE NOSOTROS */
 
 /* MAIN DEL SERVICIOS */
@@ -149,7 +150,8 @@ footer {
             a {
                 text-decoration: none;
                 list-style: none !important;
-                color: $colorNegro;
+                color: $colorNegro;  
+                transition: all 1s;            
             }
         }
     }
@@ -157,10 +159,9 @@ footer {
 
 footer {
     ul {
-        li {
+        li {           
             a:hover {
-                transition: all 1s;
-                font-size: 25px;
+                font-size: 20px;
                 color: $colorNaranja;
                 text-shadow: 0 0 10px $colorNegro;
             }
@@ -170,3 +171,4 @@ footer {
 
 
 /* FIN DEL FOOTER */
+
