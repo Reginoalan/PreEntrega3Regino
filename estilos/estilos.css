@@ -19,8 +19,15 @@
 }
 
 /* Links de navegacion */
-.pestHeader {
-  font-size: 20px !important;
+nav div ul li {
+  font-size: 20px;
+  padding: 5px;
+}
+
+nav div ul li a:hover {
+  font-size: 22px;
+  color: white !important;
+  font-weight: bold;
 }
 
 /* Logo  */
@@ -29,7 +36,7 @@
 }
 
 .fondoMainGeneral {
-  background-color: #EFE9F4 !important;
+  background-image: linear-gradient(to left bottom, #EFE9F4, rgba(191, 172, 30, 0.953));
 }
 
 /* INICIO DEL MAIN HOME*/
@@ -89,7 +96,14 @@
 footer ul li a {
   text-decoration: none;
   list-style: none !important;
-  color: black !important;
+  color: black;
+}
+
+footer ul li a:hover {
+  transition: all 1s;
+  font-size: 25px;
+  color: rgba(207, 20, 20, 0.867);
+  text-shadow: 0 0 10px black;
 }
 
 /* FIN DEL FOOTER *//*# sourceMappingURL=estilos.css.map */

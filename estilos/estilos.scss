@@ -6,6 +6,8 @@ $colorRojo: rgba(207, 20, 20, 0.867);
 $colorNegro:black;
 $colorDeFondo:#EFE9F4;
 $colorBlanco: white;
+$colorGold:rgba(191, 172, 30, 0.953);
+$colorNaranja:rgba(232, 96, 12, 0.923);
 
 /* FIN VARIABLES */
 
@@ -30,9 +32,29 @@ $colorBlanco: white;
 
 /* Links de navegacion */
 
-.pestHeader {
-    font-size: 20px !important;
+nav {
+    div {
+        ul {
+            li {
+                font-size: 20px;
+                padding: 5px;
+            }
+        }
+    }
+}
 
+nav {
+    div {
+        ul {
+            li {
+                a:hover {
+                    font-size: 22px;
+                    color: $colorBlanco !important;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
 }
 
 /* Logo  */
@@ -42,7 +64,8 @@ $colorBlanco: white;
 }
 
 .fondoMainGeneral {
-    background-color: $colorDeFondo !important;
+    //background-color: $colorDeFondo !important;
+    background-image:linear-gradient(to left bottom, $colorDeFondo,$colorGold);
 }
 
 /* INICIO DEL MAIN HOME*/
@@ -116,13 +139,27 @@ $colorBlanco: white;
 footer {
     ul {
         li {
-            a{
-                text-decoration:none;
+            a {
+                text-decoration: none;
                 list-style: none !important;
-                color: $colorNegro !important;
+                color: $colorNegro;
             }
         }
     }
 }
+
+footer {
+    ul {
+        li {
+            a:hover {
+                transition: all 1s;
+                font-size: 25px;
+                color: $colorRojo;
+                text-shadow: 0 0 10px black;
+            }
+        }
+    }
+}
+
 
 /* FIN DEL FOOTER */
