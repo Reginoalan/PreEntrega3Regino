@@ -10,7 +10,7 @@ Falta agregar
 
 - Las cosas para buscar en google
 - Hacer responsive el contactos (el mail desborda)
-- Poner un efecto en el boton de enviar el formulario
-- Las imagenes del carousel hacerlas iguales y poner mas
-- Disminuir el peso de las imagenes (frente del taller, carburacion e inyeccion)
+
+
+
 - Poner un html Error 404
