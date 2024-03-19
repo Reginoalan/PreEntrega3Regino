@@ -115,9 +115,27 @@ nav {
     padding: 15px;
 }
 
-main{
-    article{
+
+.animacionAparecer {
+    animation-duration: 1.5s;
+    animation-name: aparecer;
+}
+
+
+
+main {
+    article {
         font-size: 18px;
+    }
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
     }
 }
 
@@ -150,8 +168,8 @@ footer {
             a {
                 text-decoration: none;
                 list-style: none !important;
-                color: $colorNegro;  
-                transition: all 1s;            
+                color: $colorNegro;
+                transition: all 1s;
             }
         }
     }
@@ -159,7 +177,7 @@ footer {
 
 footer {
     ul {
-        li {           
+        li {
             a:hover {
                 font-size: 20px;
                 color: $colorNaranja;
@@ -171,4 +189,3 @@ footer {
 
 
 /* FIN DEL FOOTER */
-

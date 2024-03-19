@@ -75,10 +75,23 @@ nav div ul li a:hover {
   padding: 15px;
 }
 
+.animacionAparecer {
+  animation-duration: 1.5s;
+  animation-name: aparecer;
+}
+
 main article {
   font-size: 18px;
 }
 
+@keyframes aparecer {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 /* FIN DEL MAIN DE SERVICIOS */
 /* INICIO MAIN CONTACTO */
 .iconos {
