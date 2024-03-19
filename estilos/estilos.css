@@ -11,7 +11,7 @@
 /* HEADER - Aca comienza el Header */
 /* Color de fondo */
 .navbar {
-  background-color: rgba(207, 20, 20, 0.867);
+  background-color: rgba(240, 48, 48, 0.936);
 }
 
 .titulo {
@@ -36,7 +36,7 @@ nav div ul li a:hover {
 }
 
 .fondoMainGeneral {
-  background-image: linear-gradient(to left bottom, #EFE9F4, rgba(191, 172, 30, 0.953));
+  background-color: rgba(232, 220, 220, 0.9960784314) !important;
 }
 
 /* INICIO DEL MAIN HOME*/
@@ -60,7 +60,7 @@ nav div ul li a:hover {
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
   border-style: inset;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 /* FIN DEL MAIN HOME */
@@ -73,6 +73,10 @@ nav div ul li a:hover {
 /* MAIN DEL SERVICIOS */
 .paddingServicios {
   padding: 15px;
+}
+
+main article {
+  font-size: 18px;
 }
 
 /* FIN DEL MAIN DE SERVICIOS */
@@ -102,7 +106,7 @@ footer ul li a {
 footer ul li a:hover {
   transition: all 1s;
   font-size: 25px;
-  color: rgba(207, 20, 20, 0.867);
+  color: rgba(232, 96, 12, 0.923);
   text-shadow: 0 0 10px black;
 }
 

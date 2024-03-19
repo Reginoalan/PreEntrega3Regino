@@ -2,9 +2,9 @@
 
 /* VARIABLES */
 
-$colorRojo: rgba(207, 20, 20, 0.867);
+$colorRojo: rgba(240, 48, 48, 0.936);
 $colorNegro:black;
-$colorDeFondo:#EFE9F4;
+$colorDeFondo:#e8dcdcfe;
 $colorBlanco: white;
 $colorGold:rgba(191, 172, 30, 0.953);
 $colorNaranja:rgba(232, 96, 12, 0.923);
@@ -64,8 +64,8 @@ nav {
 }
 
 .fondoMainGeneral {
-    //background-color: $colorDeFondo !important;
-    background-image:linear-gradient(to left bottom, $colorDeFondo,$colorGold);
+    background-color: $colorDeFondo !important;
+
 }
 
 /* INICIO DEL MAIN HOME*/
@@ -91,8 +91,9 @@ nav {
     background-color: rgba(0, 0, 0, 0.6);
     color: $colorBlanco;
     border-style: inset;
-    font-size: 20px;
+    font-size: 25px;
 }
+
 
 /* FIN DEL MAIN HOME */
 
@@ -111,6 +112,12 @@ nav {
 
 .paddingServicios {
     padding: 15px;
+}
+
+main{
+    article{
+        font-size: 18px;
+    }
 }
 
 /* FIN DEL MAIN DE SERVICIOS */
@@ -154,8 +161,8 @@ footer {
             a:hover {
                 transition: all 1s;
                 font-size: 25px;
-                color: $colorRojo;
-                text-shadow: 0 0 10px black;
+                color: $colorNaranja;
+                text-shadow: 0 0 10px $colorNegro;
             }
         }
     }
