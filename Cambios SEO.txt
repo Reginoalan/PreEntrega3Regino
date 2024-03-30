@@ -1,8 +1,0 @@
-Para agregar SEO al trabajo realice los siguientes cambios:
-
-- Linkie el logo al HOME (index.html) para que se pueda acceder desde cualquier pagina
-- Agrege nombres con el atributo alt a las imagenes que faltaban en el index
-- Comprimi las imagenes un 50% de su peso en promedio 
-- Cambie el tamaño de las fotos del index para que queden simetricas
-- Coloque el texto correspondiente a cada HTML (sin lorem)
-- Agregue Keywords y description en la etiqueta meta 

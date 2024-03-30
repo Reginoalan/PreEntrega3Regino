@@ -94,6 +94,8 @@ footer ul li a:hover {
 }
 
 /* FIN DEL MAIN DE NOSOTROS */
+/* VARIABLES */
+/* FIN VARIABLES */
 /* MAIN DEL SERVICIOS */
 .paddingServicios {
   padding: 15px;
@@ -106,6 +108,11 @@ footer ul li a:hover {
 
 main article {
   font-size: 18px;
+}
+main article a {
+  text-decoration: none;
+  color: rgba(240, 48, 48, 0.936);
+  font-size: 22px;
 }
 
 @keyframes aparecer {
