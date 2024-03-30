@@ -1,17 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* VARIABLES */
-
-$colorRojo: rgba(240, 48, 48, 0.936);
-$colorNegro:black;
-$colorDeFondo:#e8dcdcfe;
-$colorBlanco: white;
-$colorGold:rgba(191, 172, 30, 0.953);
-$colorNaranja:rgba(232, 96, 12, 0.923);
-
-/* FIN VARIABLES */
-
-
 * {
     padding: 0;
     margin: 0;
@@ -19,173 +7,24 @@ $colorNaranja:rgba(232, 96, 12, 0.923);
     box-sizing: border-box;
 }
 
-/* HEADER - Aca comienza el Header */
 
-/* Color de fondo */
-.navbar {
-    background-color: $colorRojo;
-}
 
-.titulo {
-    font-size: 25px !important;
-}
+@import "_headerEstilo";
 
-/* Links de navegacion */
+@import "_footerEstilo";
 
-nav {
-    div {
-        ul {
-            li {
-                font-size: 20px;
-                padding: 5px;
-            }
-        }
-    }
-}
+@import "_homeEstilo";
 
-nav {
-    div {
-        ul {
-            li {
-                a:hover {
-                    font-size: 22px;
-                    color: $colorBlanco !important;
-                    font-weight: bold;
-                }
-            }
-        }
-    }
-}
+@import "_nosotrosEstilo";
 
-/* Logo  */
+@import "_serviciosEstilo";
 
-.navbar img {
-    height: 50px;
-}
+@import "_contactoEstilo";
+
+
+/* Color de Fondo General*/
 
 .fondoMainGeneral {
     background-color: $colorDeFondo !important;
 
 }
-
-/* INICIO DEL MAIN HOME*/
-
-.espacioHome {
-    padding: 40px !important;
-}
-
-.fondoHome {
-    background-image: url(../img/fondo_saludo.jpg);
-    background-size: cover;
-    background-position: center;
-
-}
-
-.tituloHome {
-    color: $colorBlanco;
-    font-size: 50px;
-    text-shadow: 0 0 10px black;
-}
-
-.textoHome {
-    background-color: rgba(0, 0, 0, 0.6);
-    color: $colorBlanco;
-    border-style: inset;
-    font-size: 25px;
-}
-
-
-/* FIN DEL MAIN HOME */
-
-/* MAIN DEL NOSOTROS */
-
-
-.paddingNosotros {
-    padding: 20px;
-}
-
-
-/* FIN DEL MAIN DE NOSOTROS */
-
-/* MAIN DEL SERVICIOS */
-
-
-
-.paddingServicios {
-    padding: 15px;
-}
-
-
-.animacionAparecer {
-    animation-duration: 1.5s;
-    animation-name: aparecer;
-}
-
-
-
-main {
-    article {
-        font-size: 18px;
-    }
-}
-
-@keyframes aparecer {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
-}
-
-/* FIN DEL MAIN DE SERVICIOS */
-
-/* INICIO MAIN CONTACTO */
-
-.iconos {
-
-    font-size: 40px;
-    list-style: none;
-}
-
-/* FIN MAIN CONTACTO */
-
-/* INICIO DEL FOOTER */
-
-.pFooter {
-    padding-top: 30px;
-    padding-bottom: 50px;
-}
-
-.pListFooter {
-    padding-bottom: 8px;
-}
-
-footer {
-    ul {
-        li {
-            a {
-                text-decoration: none;
-                list-style: none !important;
-                color: $colorNegro;
-                transition: all 1s;
-            }
-        }
-    }
-}
-
-footer {
-    ul {
-        li {
-            a:hover {
-                font-size: 20px;
-                color: $colorNaranja;
-                text-shadow: 0 0 10px $colorNegro;
-            }
-        }
-    }
-}
-
-
-/* FIN DEL FOOTER */

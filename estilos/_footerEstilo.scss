@@ -1,0 +1,40 @@
+@import "_colores";
+
+/* INICIO DEL FOOTER */
+
+.pFooter {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.pListFooter {
+    padding-bottom: 8px;
+}
+
+footer {
+    ul {
+        li {
+            a {
+                text-decoration: none;
+                list-style: none !important;
+                color: $colorNegro;
+                transition: all 1s;
+            }
+        }
+    }
+}
+
+footer {
+    ul {
+        li {
+            a:hover {
+                font-size: 20px;
+                color: $colorNaranja;
+                text-shadow: 0 0 10px $colorNegro;
+            }
+        }
+    }
+}
+
+
+/* FIN DEL FOOTER */

@@ -1,0 +1,46 @@
+
+@import "_colores";
+
+/* HEADER - Aca comienza el Header */
+
+/* Color de fondo */
+.navbar {
+    background-color: $colorRojo;
+}
+
+.titulo {
+    font-size: 25px !important;
+}
+
+/* Links de navegacion */
+
+nav {
+    div {
+        ul {
+            li {
+                font-size: 20px;
+                padding: 5px;
+            }
+        }
+    }
+}
+
+nav {
+    div {
+        ul {
+            li {
+                a:hover {
+                    font-size: 22px;
+                    color: $colorBlanco !important;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+/* Logo  */
+
+.navbar img {
+    height: 50px;
+}

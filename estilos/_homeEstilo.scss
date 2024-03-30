@@ -1,0 +1,30 @@
+@import "_colores";
+
+/* INICIO DEL MAIN HOME*/
+
+.espacioHome {
+    padding: 40px !important;
+}
+
+.fondoHome {
+    background-image: url(../img/fondo_saludo.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.tituloHome {
+    color: $colorBlanco;
+    font-size: 50px;
+    text-shadow: 0 0 10px black;
+}
+
+.textoHome {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: $colorBlanco;
+    border-style: inset;
+    font-size: 25px;
+}
+
+
+/* FIN DEL MAIN HOME */
