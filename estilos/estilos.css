@@ -130,6 +130,14 @@ main article a {
   list-style: none;
 }
 
+@media (min-height: 832px) {
+  .bajandoElFooter {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+}
+
 /* FIN MAIN CONTACTO */
 /* Color de Fondo General*/
 .fondoMainGeneral {

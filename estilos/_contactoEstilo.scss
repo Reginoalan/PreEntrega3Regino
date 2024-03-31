@@ -1,4 +1,3 @@
-
 /* INICIO MAIN CONTACTO */
 
 .iconos {
@@ -6,5 +5,18 @@
     font-size: 40px;
     list-style: none;
 }
+
+
+
+
+    .bajandoElFooter{
+    
+        @media (min-height: 832px) {
+        position: fixed;
+        bottom: 0;
+        width:100%;
+    }
+}
+
 
 /* FIN MAIN CONTACTO */
